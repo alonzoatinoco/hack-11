@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+.container{
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1200px;
+}
+header{
+    height: 70px;
+    padding: 10px;
+    padding-right: 100px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.title{
+    text-transform: uppercase;
+}
+section{
+    padding-left: 10px;
+    background-color: rgb(133, 206, 228);
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+section h1{
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+.title-main{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.cards {
+    gap: 10px;
+    display: -ms-grid;
+    display: grid;
+    margin-top: 2rem;
+    -ms-grid-columns: (minmax(280px, 1fr)) [auto-fill];
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  }
+
+.cards__card {
+    color: #4f4f4f;
+    background-color: white;
+  }
+  .cards__cardDetails {
+    padding: 15px 15px 20px;
+  }
+  .cards__cardTitle {
+    font-size: 18px;
+    color: #404bd9;
+    margin-bottom: 1.8rem;
+  }
+  .cards__cardNameTeacher {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+  .cards__cardNameTeacher strong {
+    color: #1c1c1e;
+  }
+  .cards__cardWrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 2rem;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  .cards__cardWrapper span{
+    color: #4f4f4f;
+    font-weight: 500;
+    font-size: 13px;
+    text-decoration: line-through;
+  }
+  .cards__cardTime {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+
+  .cards__cardTime span {
+    margin-left: 5px;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .cards__cardPrice {
+    font-size: 18px;
+    color: #34c759;
+    font-weight: 700;
+    margin-left: 10px;
+  }
+  /* .cards__cardPrice span {
+    color: #4f4f4f;
+    font-weight: 500;
+    font-size: 13px;
+    text-decoration: line-through;
+  } */
+  .cards__cardButton {
+    width: 100%;
+    height: 48px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    cursor: pointer;
+    font-size: 16px;
+    color: #404bd9;
+    border-radius: 24px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border: 2px solid #404bd9;
+    background-color: transparent;
+  }
+  .cards__cardButton:hover {
+    color: white;
+    background-color: #404bd9;
+  }
+
+
+
